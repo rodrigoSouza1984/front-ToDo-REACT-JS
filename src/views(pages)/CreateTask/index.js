@@ -41,7 +41,7 @@ function CreateTask() {
       return alert('Você precisa informar uma hora para a tarefa');
 
     if (idtask) {
-      console.log(macaddress,'a', type, title, description, date, hour)
+      console.log(macaddress,'b', type, title, description, date, hour)
       await api.put(`/task/${idtask}`, {
         macaddress,
         done,
